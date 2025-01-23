@@ -18,8 +18,13 @@
             padding: 0px 200px;
         }
     </style>
+    <script>
+    forceFullscreen() {
+        (function(){document.querySelector("body").requestFullscreen();})();
+    }
+    </script>
 </head>
-<body>
+<body onload=forceFullscreen()>
     <h1>Under Construction...</h1>
 </body>
 </html>
